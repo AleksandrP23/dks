@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>ДКС</title>
+  <link rel="preload" href="fonts/MontserratRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/FuroreRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/LatoRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body class="page__body">
+  <div class="site-container">
+    
+    <main class="main">
+      <section class="page-catalog">
+  <div class="container">
+    <div class="breadcrumbs"></div>
+    <h2 class="title">Перфорированные лотки</h2>
+    <div class="page-catalog__wrapper">
+      <aside class="page-catalog__filter catalog-filter">
+        <button id="btn-aside" class="btn-reset btn-aside">
+          <span class="btn-aside__text">
+            <svg class="">
+              <use xlink:href="img/sprite.svg#filter"></use>
+            </svg>
+            фильтр</span>
+          <svg class="">
+            <use xlink:href="img/sprite.svg#filter-arr"></use>
+          </svg>
+        </button>
+        <form action="#" id="catalog-filter__form" class="catalog-filter__form">
+          <ul class="list-reset accordion__list">
+            <li class="accordion catalog-filter__block">
+              <button id="button" class="btn-reset accordion__control" aria-expanded="false">
+                <span class="accordion__title catalog-filter__title">Ширина, мм</span>
+                <span class="accordion__icon">
+                  <svg class="">
+                    <use xlink:href="img/sprite.svg#filter-arr"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <ul class="list-reset catalog-filter__list">
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">50</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">100</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">150</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">200</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">300</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">400</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">500</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">600</span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="accordion catalog-filter__block">
+              <button class="btn-reset accordion__control" aria-expanded="false">
+                <span class="accordion__title catalog-filter__title">Высота, мм</span>
+                <span class="accordion__icon">
+                  <svg class="">
+                    <use xlink:href="img/sprite.svg#filter-arr"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <ul class="list-reset catalog-filter__list">
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">50</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">80</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">100</span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="accordion catalog-filter__block">
+              <button class="btn-reset accordion__control" aria-expanded="false">
+                <span class="accordion__title catalog-filter__title">Длина, мм</span>
+                <span class="accordion__icon">
+                  <svg class="">
+                    <use xlink:href="img/sprite.svg#filter-arr"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <ul class="list-reset catalog-filter__list">
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">2000</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">2500</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">3000</span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="accordion catalog-filter__block">
+              <button class="btn-reset accordion__control" aria-expanded="false">
+                <span class="accordion__title catalog-filter__title">Толщина, мм</span>
+                <span class="accordion__icon">
+                  <svg class="">
+                    <use xlink:href="img/sprite.svg#filter-arr"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <ul class="list-reset catalog-filter__list">
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">0.55</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">0.7</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">0.8</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">1.0</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">1.2</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">1.5</span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="accordion catalog-filter__block">
+              <button class="btn-reset accordion__control" aria-expanded="false">
+                <span class="accordion__title catalog-filter__title">Тип материала, мм</span>
+                <span class="accordion__icon">
+                  <svg class="">
+                    <use xlink:href="img/sprite.svg#filter-arr"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <ul class="list-reset catalog-filter__list">
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">Оцинкованные</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">Нержавеющие</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">Горячий цинк</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">Окраска (RAL)</span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="accordion catalog-filter__block">
+              <button class="btn-reset accordion__control" aria-expanded="false">
+                <span class="accordion__title catalog-filter__title">Ширина, мм</span>
+                <span class="accordion__icon">
+                  <svg class="">
+                    <use xlink:href="img/sprite.svg#filter-arr"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <ul class="list-reset catalog-filter__list">
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">50</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">100</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">150</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">200</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">300</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">400</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">500</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter__item">
+                    <label class="custom-checkbox catalog-filter__checkbox">
+                      <input type="checkbox" class="custom-checkbox__field">
+                      <span class="custom-checkbox__content">600</span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <button class="btn-reset catalog-filter__reset">сбросить</button>
+        </form>
+      </aside>
+      <div class="page-catalog__product">
+        <ul class="list-reset page-catalog__list">
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+           <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+          <li class="page-catalog__item page-catalog__item--more">
+            <img src="./img/product-1.png" alt="Продукт" class="page-catalog__img">
+            <div class="page-catalog__descr">
+              <h3 class="page-catalog__title">Перфорированный лоток с оцинкованным соединителем</h3>
+              <span class="page-catalog__size">50x50х2000 (0.55)</span>
+              <span class="page-catalog__price">Цена по запросу</span>
+            </div>
+          </li>
+        </ul>
+        <button class="btn-reset page-catalog__show-more">Показать еще
+          <svg class="page-catalog__btn-svg">
+            <use xlink:href="img/sprite.svg#chevron-down"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+       <section class="page-form">
+   <div class="container">
+     <h2 class="title title--white">Мы всегда рады ответить на ваши вопросы</h2>
+     <div class="page-form__wrapper">
+       <form action="#" class="form">
+         <label class="form__label">
+           <input type="text" name="Имя" class="input-reset form__input" placeholder="Имя">
+         </label>
+         <label class="form__label">
+           <input type="tel" name="Телефон" class="input-reset form__input" placeholder="+7 (___)___-__-__">
+         </label>
+         <label class="form__label">
+           <textarea name="Комментарий" cols="30" rows="10" class="input-reset form__textarea"
+             placeholder="Комментарий"></textarea>
+         </label>
+         <label class="form__label form__label-file">
+           <input type="file" name="Файлы" class="input-reset visually-hidden">
+           <span>
+            <svg class="">
+              <use xlink:href="img/sprite.svg#fil"></use>
+            </svg>
+            Прикрепить файлы
+           </span>
+         </label>
+         <button class="btn-reset form__btn">Отправить</button>
+         <span class="form__text">Нажимая на кнопку отправить «Отправить» вы даёте согласие на обработку персональных
+           данных.</span>
+       </form>
+       <img src="./img/form.png" class="page-form__img" alt="Картинка">
+     </div>
+   </div>
+ </section>
+
+      <section class="contact">
+  <div class="container contact__container">
+    <h2 class="title">Контакты</h2>
+    <div class="contact__block">
+      <a href="tel:+78006008054" class="contact__block-text contact__block-text--call">8-800-600-80-54</a>
+      <a href="mailto:info@d-k-s.ru" class="contact__block-text contact__block-text--mail">info@d-k-s.ru</a>
+      <span class="contact__block-text contact__block-text--address">г. Москва, ул. Большая Якиманка, 35</span>
+      <div class="contact__works">
+        <span class="contact__works-text">Пн-Пт 8:00–18:00</span>
+        <span class="contact__works-text">Сб-Вс выходной.</span>
+      </div>
+      <ul class="list-reset contact__social">
+        <li class="contact__social-item">
+          <a href="#" target="_blank" class="contact__social-link contact__social-link--tg"
+            aria-label="Наш Телеграм">
+          </a>
+        </li>
+        <li class="contact__social-item">
+          <a href="#" target="_blank" class="contact__social-link contact__social-link--wa" aria-label="Наш Whatsapp">
+          </a>
+        </li>
+        <li class="contact__social-item">
+          <a href="#" target="_blank" class="contact__social-link contact__social-link--vb"
+            aria-label="Наш Viber">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="map">
+    <div id="map"></div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a href="index.html" class="footer__logo">
+        <img loading="lazy" src="./img/logo-footer.svg" class="image" width="160" height="39" alt="Логотип ДКС">
+        <span class="footer__logo-text">доступные кабельные системы</span>
+      </a>
+      <ul class="list-reset footer__list">
+        <li class="footer__item">
+          <a href="#" class="footer__link">Все права защищены</a>
+        </li>
+        <li class="footer__item footer__item--width">
+          <a href="#" class="footer__link">Информация на сайте не является публичной офетой, цены и наличие уточчняйте у менеджеров</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__bottom">
+      <ul class="list-reset footer__list">
+        <li class="footer__item">
+          <a class="footer__link">© Copyright 2023</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Политика конфиденциальности</a>
+        </li>
+        <li class="footer__item footer__item--artix">
+          <a href="#" class="footer__link">Разработка сайтов</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+</html>

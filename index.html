@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>ДКС</title>
+  <link rel="preload" href="fonts/MontserratRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/FuroreRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/LatoRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container">
+    <div class="header__top">
+      <a href="index.html" class="header__logo">
+        <img loading="lazy" src="./img/logo.svg" class="image" width="126" height="31" alt="Логотип ДКС">
+        <span class="header__logo-text">доступные кабельные системы</span>
+      </a>
+      <nav class="nav" title="Главная навигация">
+        <ul class="list-reset nav__list" data-menu>
+          <li class="nav__item"><a href="#" class="nav__link">О компании</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Оплата и доставка</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <ul class="list-reset social">
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link social__link--tg"
+            aria-label="Наш Телеграм">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link social__link--wa" aria-label="Наш Whatsapp">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link social__link--vb"
+            aria-label="Наш Viber">
+          </a>
+        </li>
+      </ul>
+      <a href="tel:+78006008054" class="header__tel">8-800-600-80-54</a>
+    </div>
+    <div class="header__bottom">
+      <div class="header__catalog header-catalog">
+        <svg>
+          <use xlink:href="img/sprite.svg#catalog"></use>
+        </svg>
+        <span class="header-catalog__text">Каталог</span>
+          <ul class="list-reset header-catalog__list">
+            <li class="header-catalog__item"><a href="#" class="header-catalog__link">Перфорированные лотки</a></li>
+            <li class="header-catalog__item"><a href="#" class="header-catalog__link">НЕПерфорированные лотки</a></li>
+            <li class="header-catalog__item"><a href="#" class="header-catalog__link">Соединители лотков</a></li>
+            <li class="header-catalog__item"><a href="#" class="header-catalog__link">Короба серии сп</a></li>
+            <li class="header-catalog__item"><a href="#" class="header-catalog__link">Лестничные лотки</a></li>
+            <li class="header-catalog__item"><a href="#" class="header-catalog__link">Проволочные лотки</a></li>
+            <li class="header-catalog__item"><a href="#" class="header-catalog__link">крышки лотков</a></li>
+            <li class="header-catalog__item"><a href="#" class="header-catalog__link">аксессуары</a></li>
+            <li class="header-catalog__item"><a href="#" class="header-catalog__link">Монтажные системы</a></li>
+            <li class="header-catalog__item"><a href="#" class="header-catalog__link">strut - системы</a></li>
+            <li class="header-catalog__item"><a href="#" class="header-catalog__link">метизы</a></li>
+          </ul>
+      </div>
+      <input type="search" placeholder="Поиск по каталогу" class="header__bottom-search">
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="hero">
+  <div class="container">
+    <h1 class="hero__title">Монтажные и кабеленесущие системы</h1>
+  </div>
+  <div class="swiper hero-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="hero-slider__images">
+          <div class="hero-slider__img">
+            <img src="./img/hero-1.png" alt="Картинка 1">
+            <div class="hero-slider__descr">
+              <!-- <span class="hero-slider__text">Наши специалисты качественно и в срок изготовят ваш заказ</span>
+              <button class="btn-reset hero__btn" data-graph-path="hero-modal">Оставить заявку</button> -->
+            </div>
+          </div>
+          <div class="hero-slider__img-left">
+            <img src="./img/hero-1-1.png" alt="Картинка 1-1">
+          </div>
+        </div>
+      </div>
+      <!-- <div class="swiper-slide">
+        <div class="hero-slider__images">
+          <div class="hero-slider__img">
+            <img src="./img/hero-2.png" alt="Картинка 2">
+            <span class="hero-slider__text">Наши специалисты качественно и в срок изготовят ваш заказ</span>
+          </div>
+          <div class="hero-slider__img-left">
+            <img src="./img/hero-2-1.png" alt="Картинка 2-1">
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="swiper-slide">
+        <div class="hero-slider__images">
+          <div class="hero-slider__img">
+            <img src="./img/hero-3.png" alt="Картинка 3">
+            <span class="hero-slider__text">Наши специалисты качественно и в срок изготовят ваш заказ</span>
+          </div>
+          <div class="hero-slider__img-left">
+            <img src="./img/hero-3-1.png" alt="Картинка 3-1">
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <div class="hero-slider__btns">
+      <div class="swiper-button-prev hero-slider__btn hero-slider__prev">
+        <svg>
+          <use xlink:href="img/sprite.svg#arr-left"></use>
+        </svg>
+      </div>
+      <div class="swiper-button-next hero-slider__btn hero-slider__next">
+        <svg>
+          <use xlink:href="img/sprite.svg#arr-right"></use>
+        </svg>
+      </div>
+    </div>
+    <div class="hero-slider__info">
+      <span class="hero-slider__text">Наши специалисты качественно и в срок изготовят ваш заказ</span>
+      <button class="btn-reset hero__btn" data-graph-path="hero-modal">Оставить заявку</button>
+      <div class="swiper-pagination hero-slider__pag"></div>
+    </div>
+    <div class="graph-modal hero__modal">
+      <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="hero-modal">
+        <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+        <div class="graph-modal__content">fghfg</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="catalog">
+  <div class="container">
+    <h2 class="title">Категории товаров</h2>
+    <ul class="list-reset catalog__list">
+      <li class="catalog__item">
+        <a href="#" class="catalog__item-link">
+          <img class="catalog__img" src="./img/catalog-1.png" alt="неПерфорированные лотки">
+          <p class="catalog__item-title">неПерфорированные лотки</p>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a href="#" class="catalog__item-link">
+          <img class="catalog__img" src="./img/catalog-2.png" alt="перфорированные лотки">
+          <p class="catalog__item-title">перфорированные лотки</p>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a href="#" class="catalog__item-link">
+          <img class="catalog__img" src="./img/catalog-3.png" alt="Крышки лотков">
+          <p class="catalog__item-title">Крышки лотков</p>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a href="#" class="catalog__item-link">
+          <img class="catalog__img" src="./img/catalog-4.png" alt="Проволочные лотки">
+          <p class="catalog__item-title">Проволочные лотки</p>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a href="#" class="catalog__item-link">
+          <img class="catalog__img" src="./img/catalog-5.png" alt="Соединение лотков">
+          <p class="catalog__item-title">Соединение лотков</p>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a href="#" class="catalog__item-link">
+          <img class="catalog__img" src="./img/catalog-6.png" alt="strut - системы">
+          <p class="catalog__item-title">strut - системы</p>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a href="#" class="catalog__item-link">
+          <img class="catalog__img" src="./img/catalog-7.png" alt="Короба серии СП">
+          <p class="catalog__item-title">Короба серии СП</p>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a href="#" class="catalog__item-link">
+          <img class="catalog__img" src="./img/catalog-8.png" alt="Лестничные лотки">
+          <p class="catalog__item-title">Лестничные лотки</p>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a href="#" class="catalog__item-link">
+          <img class="catalog__img" src="./img/catalog-9.png" alt="Монтажные системы">
+          <p class="catalog__item-title">Монтажные системы</p>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a href="#" class="catalog__item-link">
+          <img class="catalog__img" src="./img/catalog-10.png" alt="метизы">
+          <p class="catalog__item-title">метизы</p>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a href="#" class="catalog__item-link">
+          <img class="catalog__img" src="./img/catalog-11.png" alt="Аксессуары">
+          <p class="catalog__item-title">Аксессуары</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="about">
+  <div class="container">
+    <h2 class="title">О компании</h2>
+    <div class="about__block">
+      <ul class="list-reset about__list">
+        <li class="about__item">
+          <svg>
+            <use xlink:href="img/sprite.svg#about-1"></use>
+          </svg>
+          <div class="about__item-descr">
+            <h3 class="about__item-title">Масштабное производство</h3>
+            <p class="about__item-text">Предприятие с производственными мощностями, расположившимися на более чем 1500 кв.м</p>
+          </div>
+        </li>
+        <li class="about__item">
+          <svg>
+            <use xlink:href="img/sprite.svg#about-2"></use>
+          </svg>
+          <div class="about__item-descr">
+            <h3 class="about__item-title">Выполняем в срок</h3>
+            <p class="about__item-text">Ориентируемся на качество и сроки изготовления заказов.</p>
+          </div>
+        </li>
+        <li class="about__item">
+          <svg>
+            <use xlink:href="img/sprite.svg#about-3"></use>
+          </svg>
+          <div class="about__item-descr">
+            <h3 class="about__item-title">Качество продукции</h3>
+            <p class="about__item-text">Продукция отвечает высоким требованиям ГОСТ.</p>
+          </div>
+        </li>
+      </ul>
+      <img class="about__img" src="./img/about-1.png" alt="Картинка">
+    </div>
+    <div class="about__block about__block--reverce">
+      <ul class="list-reset about__list">
+        <li class="about__item">
+          <svg>
+            <use xlink:href="img/sprite.svg#about-4"></use>
+          </svg>
+          <div class="about__item-descr">
+            <h3 class="about__item-title">Опытные специалисты</h3>
+            <p class="about__item-text">Мы гордимся коллективом специалистов, которые в самых сложных задачах предложат вам оптимальные решения.</p>
+          </div>
+        </li>
+        <li class="about__item">
+          <svg>
+            <use xlink:href="img/sprite.svg#about-5"></use>
+          </svg>
+          <div class="about__item-descr">
+            <h3 class="about__item-title">Автоматизированное производство</h3>
+            <p class="about__item-text">Процессы обеспечиваются автоматическими линиями проката и десятками единиц вспомогательного оборудования.</p>
+          </div>
+        </li>
+      </ul>
+      <img class="about__img" src="./img/about-2.png" alt="Картинка">
+    </div>
+  </div>
+</section>
+
+      <section class="contact">
+  <div class="container contact__container">
+    <h2 class="title">Контакты</h2>
+    <div class="contact__block">
+      <a href="tel:+78006008054" class="contact__block-text contact__block-text--call">8-800-600-80-54</a>
+      <a href="mailto:info@d-k-s.ru" class="contact__block-text contact__block-text--mail">info@d-k-s.ru</a>
+      <span class="contact__block-text contact__block-text--address">г. Москва, ул. Большая Якиманка, 35</span>
+      <div class="contact__works">
+        <span class="contact__works-text">Пн-Пт 8:00–18:00</span>
+        <span class="contact__works-text">Сб-Вс выходной.</span>
+      </div>
+      <ul class="list-reset contact__social">
+        <li class="contact__social-item">
+          <a href="#" target="_blank" class="contact__social-link contact__social-link--tg"
+            aria-label="Наш Телеграм">
+          </a>
+        </li>
+        <li class="contact__social-item">
+          <a href="#" target="_blank" class="contact__social-link contact__social-link--wa" aria-label="Наш Whatsapp">
+          </a>
+        </li>
+        <li class="contact__social-item">
+          <a href="#" target="_blank" class="contact__social-link contact__social-link--vb"
+            aria-label="Наш Viber">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="map">
+    <div id="map"></div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a href="index.html" class="footer__logo">
+        <img loading="lazy" src="./img/logo-footer.svg" class="image" width="160" height="39" alt="Логотип ДКС">
+        <span class="footer__logo-text">доступные кабельные системы</span>
+      </a>
+      <ul class="list-reset footer__list">
+        <li class="footer__item">
+          <a href="#" class="footer__link">Все права защищены</a>
+        </li>
+        <li class="footer__item footer__item--width">
+          <a href="#" class="footer__link">Информация на сайте не является публичной офетой, цены и наличие уточчняйте у менеджеров</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__bottom">
+      <ul class="list-reset footer__list">
+        <li class="footer__item">
+          <a class="footer__link">© Copyright 2023</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Политика конфиденциальности</a>
+        </li>
+        <li class="footer__item footer__item--artix">
+          <a href="#" class="footer__link">Разработка сайтов</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+</html>
