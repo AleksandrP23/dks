@@ -755,7 +755,7 @@ a {
     font-size: 14px;
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 767px) {
   .catalog__item-title {
     font-size: 7px;
   }
