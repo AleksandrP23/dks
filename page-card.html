@@ -23,7 +23,87 @@
 
 <body class="page__body">
   <div class="site-container">
-    
+    <header class="header">
+  <div class="container">
+    <div class="header__top">
+      <a href="index.html" class="header__logo">
+        <img loading="lazy" src="./img/logo.svg" class="image" width="126" height="31" alt="Логотип ДКС">
+        <span class="header__logo-text">доступные кабельные системы</span>
+      </a>
+      <nav class="nav">
+        <ul class="list-reset nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">О компании</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Оплата и доставка</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <ul class="list-reset social">
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link social__link--tg" aria-label="Наш Телеграм">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link social__link--wa" aria-label="Наш Whatsapp">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link social__link--vb" aria-label="Наш Viber">
+          </a>
+        </li>
+      </ul>
+      <a href="tel:+78006008054" class="header__tel">
+        <svg class="">
+          <use xlink:href="img/sprite.svg#tel"></use>
+        </svg>
+        <span class="header__tel-text">8-800-600-80-54</span>
+      </a>
+    </div>
+    <div class="header__bottom">
+      <div class="header__catalog header-catalog" aria-expanded="false" data-burger>
+        <button class="btn-reset burger" aria-label="Открыть меню">
+          <span class="burger__line"></span>
+        </button>
+        <p class="header-catalog__text">Каталог</p>
+      </div>
+        <ul class="list-reset header-catalog__list" data-menu>
+          <li class="header-catalog__item"><a href="#" class="header-catalog__link">Перфорированные лотки</a></li>
+          <li class="header-catalog__item"><a href="#" class="header-catalog__link">НЕПерфорированные лотки</a></li>
+          <li class="header-catalog__item"><a href="#" class="header-catalog__link">Соединители лотков</a></li>
+          <li class="header-catalog__item"><a href="#" class="header-catalog__link">Короба серии сп</a></li>
+          <li class="header-catalog__item"><a href="#" class="header-catalog__link">Лестничные лотки</a></li>
+          <li class="header-catalog__item"><a href="#" class="header-catalog__link">Проволочные лотки</a></li>
+          <li class="header-catalog__item"><a href="#" class="header-catalog__link">крышки лотков</a></li>
+          <li class="header-catalog__item"><a href="#" class="header-catalog__link">аксессуары</a></li>
+          <li class="header-catalog__item"><a href="#" class="header-catalog__link">Монтажные системы</a></li>
+          <li class="header-catalog__item"><a href="#" class="header-catalog__link">strut - системы</a></li>
+          <li class="header-catalog__item"><a href="#" class="header-catalog__link">метизы</a></li>
+        </ul>
+        <div class="search header__bottom-search">
+          <input type="text" placeholder="Поиск по каталогу" class="header__bottom-input">
+          <ul class="results"></ul>
+        </div>
+    </div>
+  </div>
+</header>
+
+    <section class="breadcrumbs">
+      <div class="container">
+        <ul class="list-reset breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a href="index.html" class="breadcrumbs__link">Главная</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a href="#" class="breadcrumbs__link">Каталог</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a href="#" class="breadcrumbs__link">перфорированный Лоток</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link">перфорированный Лоток с оцинкованным соединителем 50x50х2000 (0.55)</a>
+          </li>
+        </ul>
+      </div>
+    </section>
     <main class="main">
       <section class="card-descr">
   <div class="container">
@@ -412,7 +492,7 @@
         <li class="footer__item">
           <a class="footer__link">© Copyright 2023</a>
         </li>
-        <li class="footer__item">
+        <li class="footer__item footer__item--center">
           <a href="#" class="footer__link">Политика конфиденциальности</a>
         </li>
         <li class="footer__item footer__item--artix">
