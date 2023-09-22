@@ -500,7 +500,7 @@ if (swipersHeros) {
 ;
 if (swipersPhotos) {
   const swipersPhoto = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](swipersPhotos, {
-    slidesPerView: 4.5,
+    slidesPerView: 4,
     spaceBetween: 20,
     // centeredSlides: true,
     loop: true,
@@ -519,10 +519,13 @@ if (swipersPhotos) {
         slidesPerView: 1
       },
       768: {
-        slidesPerView: 1.9
+        slidesPerView: 2
       },
       1024: {
-        slidesPerView: 4.5
+        slidesPerView: 4
+      },
+      1440: {
+        slidesPerView: 5
       }
     }
   });
@@ -548,7 +551,10 @@ if (swipersCerts) {
         slidesPerView: 2
       },
       1024: {
-        slidesPerView: 6.5
+        slidesPerView: 4
+      },
+      1440: {
+        slidesPerView: 6
       }
     }
   });
