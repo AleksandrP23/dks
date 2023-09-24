@@ -589,6 +589,13 @@ a {
   border-radius: 10px;
   padding: 10px 12px;
   width: 100%;
+  font-family: var(--second-family, sans-serif);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 102%;
+  letter-spacing: 0.36px;
+  color: #107bd7;
 }
 .search input[type=text]::-webkit-input-placeholder {
   font-family: var(--second-family, sans-serif);
@@ -802,6 +809,11 @@ a {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+@media (max-width: 768px) {
+  .hero-slider__btns {
+    top: 35%;
+  }
+}
 .hero-slider__btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -974,7 +986,7 @@ a {
 .graph-modal__container .form__label {
   width: 50%;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .graph-modal__container .form__label {
     width: 100%;
   }
@@ -1013,7 +1025,7 @@ a {
     order: 1;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .graph-modal__container .form__label-file {
     width: 100%;
   }
@@ -1099,10 +1111,6 @@ a {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-}
-@media (max-width: 767px) {
-  .graph-modal__group {
     gap: 0;
   }
 }
@@ -2527,7 +2535,7 @@ a {
 }
 
 .open .accordion__icon {
-  padding: 0 10px;
+  padding: 5px 10px;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -3099,6 +3107,11 @@ a {
   width: 100%;
   max-width: 1920px;
 }
+@media (max-width: 768px) {
+  .card-cert__slider .hero-slider__btns {
+    top: 50%;
+  }
+}
 .card-cert__slider .hero-slider__btn {
   color: #1078d3;
   background-color: #031367;
@@ -3138,6 +3151,11 @@ a {
 .card-size__slider {
   padding-right: 10px;
   padding-left: 10px;
+}
+@media (max-width: 768px) {
+  .card-size__slider .hero-slider__btns {
+    top: 50%;
+  }
 }
 .card-size__slider .hero-slider__btn {
   color: #1078d3;
@@ -3257,6 +3275,11 @@ a {
 .card-related__slider {
   padding-right: 10px;
   padding-left: 10px;
+}
+@media (max-width: 768px) {
+  .card-related__slider .hero-slider__btns {
+    top: 50%;
+  }
 }
 .card-related__slider .hero-slider__btn {
   color: #1078d3;
